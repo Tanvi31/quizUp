@@ -1,0 +1,183 @@
+.cardlayout {
+    width: 94%;
+    background-color: #293462;
+    height: 440px;
+    border-radius: 10px;
+    margin: 1.4em 0 1em 0;
+}
+
+.cardlayout h3 {
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.cardlayout p {
+    color: #F5EFE6;
+    text-align: center;
+    padding: 0.5em 0.8em;
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+.cardlayout span {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.optionsCard {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.3em;
+}
+
+.singleOption {
+    width: 90%;
+    min-height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.singleOption :hover {
+    cursor: pointer;
+}
+
+.select {
+    background-color: rgb(7, 207, 0);
+    color: #F5EFE6;
+}
+
+.wrong {
+    background-color: rgb(233, 0, 0);
+    color: #F5EFE6;
+}
+
+.controls {
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.6em;
+}
+
+.quit {
+    border-radius: 4px;
+    padding: 0.5em 0.8em;
+    width: 12em;
+    background-color: #CD104D;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.quit:hover {
+    background-color: #d33b6b;
+    cursor: pointer;
+}
+
+.next {
+    border-radius: 4px;
+    padding: 0.5em 0.8em;
+    width: 12em;
+    border-style: none;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: #367E18;
+}
+
+.next:hover {
+    background-color: #4db023;
+    cursor: pointer;
+}
+
+@media(max-width: 520px) {
+    .cardlayout {
+        height: 528px;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .next {
+        margin-bottom: 0.8em;
+    }
+
+}
+
+@media(max-width: 376px) {
+    .cardlayout {
+        height: 420px;
+        overflow: scroll;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .next {
+        margin-bottom: 0.8em;
+    }
+
+}
+
+/* ipad */
+@media(width:820px) and (height:1180px) {
+    .cardlayout {
+        width: 94%;
+        background-color: #293462;
+        min-height: 650px;
+        border-radius: 10px;
+        margin: 1.4em 0 1em 0;
+    }
+
+    .cardlayout h3 {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        font-size: 2.5em;
+        padding-top: 0.7em;
+        margin-bottom: 0.5em;
+    }
+
+    .cardlayout p {
+        color: #F5EFE6;
+        text-align: center;
+        padding: 0.5em 1em;
+        margin-bottom: 0.3em;
+        font-size: 1.7em;
+    }
+
+    .optionsCard {
+        width: 90%;
+        height: 290px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0.2em;
+    }
+
+    .singleOption {
+        width: 90%;
+        min-height: 50px;
+        border-radius: 5px;
+        font-size: 1.6em;
+    }
+
+}

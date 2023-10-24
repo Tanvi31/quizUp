@@ -1,0 +1,74 @@
+.results {
+    background-color: #182747;
+    min-height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    padding: 1em;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    color: #F5EFE6;
+    padding: 3.4em;
+    font-size: 1.8em;
+}
+
+.results span {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.playAgain {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(64, 131, 108);
+    padding: 1em;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #F5EFE6;
+}
+
+.playAgain:hover,
+.playAgain:active {
+    cursor: pointer;
+    background-color: rgb(90, 177, 147);
+}
+
+@media(width:820px) and (height:1180px) {
+    h2 {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        padding: 1em;
+        font-size: 3.5em;
+    }
+
+    p {
+        text-align: center;
+        color: #F5EFE6;
+        padding: 3.4em;
+        font-size: 3em;
+    }
+
+    .playAgain {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        background-color: rgb(64, 131, 108);
+        padding: 1.5em 2em;
+        border-radius: 8px;
+        font-size: 1.6em;
+        font-weight: 700;
+        color: #F5EFE6;
+    }
+
+}

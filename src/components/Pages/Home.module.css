@@ -1,0 +1,241 @@
+/* * {
+    overflow: hidden;
+} */
+
+.home {
+    width: 84%;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B9FFF8;
+    border-radius: 12px;
+    box-shadow: -6px 2px 11px -1px rgba(135, 135, 135, 1);
+}
+
+.home h2 {
+    padding: 12px;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 9vw;
+    margin-top: 20px;
+}
+
+.home span {
+    margin-bottom: 0.6em;
+}
+
+.settings {
+    background-color: #FF9551;
+    border-radius: 8px;
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.settings_control {
+    width: 86%;
+}
+
+
+.settings_control input:not([type]),
+input[type="text"] {
+    border-width: 1px;
+    border-style: 1px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.settings_control input:not([type]),
+input[type="text"],
+select {
+    width: 100%;
+    height: 8vw;
+    margin-bottom: 14px;
+    border-radius: 4px;
+}
+
+.settings button {
+    margin-top: 34px;
+    border-radius: 6px;
+    border-style: none;
+    width: 100%;
+    height: 12vw;
+    background-color: #d13232;
+    font-size: 6vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.settings button:hover {
+    background-color: #f34242;
+    transform: translateY(1px);
+}
+
+
+@media(min-width:460px) and (max-width:610px) {
+
+    .settings {
+        height: 240px;
+    }
+
+    .settings_control input:not([type]),
+    input[type="text"],
+    select {
+        width: 100%;
+        height: 6vw;
+        margin-bottom: 12px;
+        border-radius: 4px;
+    }
+
+    .settings button {
+        margin: 14px 0;
+        border-radius: 6px;
+        border-style: none;
+        width: 100%;
+        height: 7vw;
+        padding: 12px 0;
+        background-color: #d13232;
+        font-size: 3.2vw;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+
+
+@media(min-width:610px) and (max-width:870px) {
+
+    .home h2 {
+        padding: 8px;
+        font-family: 'Bungee Spice', cursive;
+        font-size: 6vw;
+        margin-top: 20px;
+    }
+
+    .settings {
+        height: 230px
+    }
+
+    .settings_control input:not([type]),
+    input[type="text"],
+    select {
+        width: 100%;
+        height: 3.4vw;
+        margin-bottom: 12px;
+        border-radius: 4px;
+    }
+
+    .settings button {
+        margin: 20px 0;
+        border-radius: 6px;
+        border-style: none;
+        width: 100%;
+        height: 5vw;
+        background-color: #d13232;
+        font-size: 3.2vw;
+        font-weight: 400;
+        padding: 5px 0;
+    }
+}
+
+@media(min-width:870px) {
+
+    .home h2 {
+        padding: 8px;
+        font-family: 'Bungee Spice', cursive;
+        font-size: 6vw;
+        margin-top: 20px;
+    }
+
+    .settings {
+        height: 280px;
+    }
+
+    .settings_control input:not([type]),
+    input[type="text"],
+    select {
+        width: 100%;
+        height: 3.6vw;
+        margin-bottom: 12px;
+        border-radius: 4px;
+    }
+
+    .settings button {
+        margin: 30px 0;
+        border-radius: 6px;
+        border-style: none;
+        width: 100%;
+        height: 5vw;
+        background-color: #d13232;
+        font-size: 2.8vw;
+        font-weight: 400;
+        padding: 8px 0;
+
+    }
+}
+
+@media(min-width:1070px) {
+    .home {
+        width: 79%;
+        margin: 0 auto;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #B9FFF8;
+        border-radius: 12px;
+        box-shadow: -6px 2px 11px -1px rgba(135, 135, 135, 1);
+    }
+
+    .home h2 {
+        padding: 12px;
+        font-family: 'Bungee Spice', cursive;
+        font-size: 4.3vw;
+        margin: 20px 0;
+    }
+
+    .home span {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .settings {
+        height: 340px;
+    }
+
+    .settings_control input:not([type]),
+    input[type="text"],
+    select {
+        width: 100%;
+        height: 3.2vw;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .settings button {
+        margin: 20px 0;
+        border-radius: 6px;
+        border-style: none;
+        width: 100%;
+        height: 3vw;
+        background-color: #d13232;
+        padding: 6px 0;
+        font-size: 1.6vw;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:375px) and (-webkit-min-device-pixel-ratio: 4) {
+    .home {
+        height: 510px;
+    }
+}
