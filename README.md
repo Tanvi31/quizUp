@@ -23,10 +23,6 @@ $ npm start
 
 You can see the App in action here.....
 
-https://user-images.githubusercontent.com/51706809/196438823-6a446fe8-721e-4b2c-9436-99efe2697259.mov
-
-
-https://user-images.githubusercontent.com/51706809/196441324-b46b0304-a851-4c28-b3cd-2f3ee233c32e.mov
 
 
 ### Live Site URL : https://Tanvi31.github.io/quizup
